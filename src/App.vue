@@ -14,6 +14,9 @@
     <router-link to="/databindinattribute">Data Binding Attribute</router-link> |
     <router-link to="/databindingbutton">Data Binding Button</router-link> |
     <router-link to="/databindingclass">Data Binding Class</router-link> |
+    <router-link to="/databindingclass2">Data Binding Class2</router-link> |
+    <router-link to="/databindingstyleobject">Data Binding StyleObject</router-link> |
+    <router-link to="/databindingstyleobject2">Data Binding StyleObject2</router-link> |
   </nav>
   <router-view/>
 </template>

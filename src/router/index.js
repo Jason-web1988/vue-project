@@ -16,7 +16,9 @@ import DatabindingRadio from '../views/DatabindingRadio.vue'
 import DataBindingAttribute from '../views/DataBindingAttribute.vue'
 import DataBindingButton from '../views/DataBindingButton.vue'
 import DataBindingClass from '../views/DataBindingClass.vue'
-
+import DataBindingClass2 from '../views/DataBindingClass2.vue'
+import DataBindingStyle from '../views/DataBindingStyle.vue'
+import DataBindingStyle2 from '../views/DataBindingStyle2.vue'
 const routes = [
   {
     path: '/',
@@ -93,8 +95,22 @@ const routes = [
     path: '/databindingclass',
     name: DataBindingClass,
     component: DataBindingClass
+  },
+  {
+    path: '/databindingclass2',
+    name: DataBindingClass2,
+    component: DataBindingClass2
+  }  ,
+  {
+    path: '/databindingstyleobject',
+    name: DataBindingStyle,
+    component: DataBindingStyle
+  }  ,
+  {
+    path: '/databindingstyleobject2',
+    name: DataBindingStyle2,
+    component: DataBindingStyle2
   }
-
 ]
 
 const router = createRouter({
