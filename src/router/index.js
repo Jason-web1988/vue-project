@@ -19,6 +19,11 @@ import DataBindingClass from '../views/DataBindingClass.vue'
 import DataBindingClass2 from '../views/DataBindingClass2.vue'
 import DataBindingStyle from '../views/DataBindingStyle.vue'
 import DataBindingStyle2 from '../views/DataBindingStyle2.vue'
+import DataBindingStyle from '../views/DataBindingStyle.vue'
+import DataBindingStyle2 from '../views/DataBindingStyle2.vue'
+import DataBindingList from '../views/DataBindingList.vue'
+import RenderingVif from '../views/RenderingVIf.vue'
+import RenderingVShow from '../views/RenderingVShow.vue'
 const routes = [
   {
     path: '/',

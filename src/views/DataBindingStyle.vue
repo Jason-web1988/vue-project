@@ -1,5 +1,5 @@
 <template>
-<div v-bind:style="styleObject">인라인 스타일</div>
+<div v-bind:style="styleObject">인라인 스타일 바인딩</div>
 </template>
 <script>
 
@@ -8,7 +8,7 @@ export default{
         return{
             styleObject : {
                 color : 'red',
-                fontsize : '13px'
+                fontSize : '13px'
             }
         };
     }
