@@ -21,6 +21,12 @@ import DataBindingStyle2 from '../views/DataBindingStyle2.vue'
 import DataBindingList from '../views/DataBindingList.vue'
 import RenderingVif from '../views/RenderingVIf.vue'
 import RenderingVShow from '../views/RenderingVShow.vue'
+import EventClick from '../views/EventClick.vue'
+import EventChange from '../views/EventChange.vue'
+import EventKey from '../views/EventKey.vue'
+import ComputedClass from '../views/ComputedClass.vue'
+import WatchClass from '../views/WatchClass.vue'
+import WatchClass2 from '../views/WatchClass2.vue'
 const routes = [
 {
   path: '/',
@@ -122,8 +128,37 @@ const routes = [
   path: '/renderingvshow',
   name: RenderingVShow,
   component: RenderingVShow
+},
+{
+  path: '/eventclick',
+  name: EventClick,
+  component: EventClick
+},
+{
+  path: '/eventchange',
+  name: EventChange,
+  component: EventChange
+},
+{
+  path: '/eventkey',
+  name: EventKey,
+  component: EventKey
+},
+{
+  path : '/computedclass',
+  name : ComputedClass,
+  component : ComputedClass
+},
+{
+  path : '/watchclass',
+  name : WatchClass,
+  component : WatchClass
+},
+{
+  path : '/watchclass2',
+  name : WatchClass2,
+  component : WatchClass2
 }
-
 ]
 
 const router = createRouter({

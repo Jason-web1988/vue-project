@@ -17,8 +17,15 @@
     <router-link to="/databindingstyle">Data Binding Style</router-link> |
     <router-link to="/databindingstyle2">Data Binding Style2</router-link> | -->
     <!-- <router-link to="/databindinglist">Data Binding List</router-link> |  -->
-    <router-link to="/renderingvif">Rendering V-if</router-link> |
-    <router-link to="/renderingvshow">Rendering V-Show</router-link> |
+    <!-- <router-link to="/renderingvif">Rendering V-if</router-link> | -->
+    <!-- <router-link to="/renderingvshow">Rendering V-Show</router-link> | -->
+    <!-- <router-link to="/eventclick">Event Click</router-link> | -->
+    <!-- <router-link to="/eventchange">Event Change</router-link> | -->
+    <!-- <router-link to="/eventkey">Event Key</router-link> | -->
+    <!-- <router-link to="/computedclass">Computed-Class</router-link> |
+    <router-link to="/watchclass">Watch-Class</router-link> | -->
+    <router-link to="/watchclass2">Watch-Class2</router-link> |
+    
   </nav>
   <router-view/>
 </template>

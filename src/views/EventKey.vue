@@ -3,6 +3,7 @@
     <input type="text" @keyup.enter="submit" v-model="name" />
     <input type="text" @keyup.alt.enter="clear" v-model="name1" />
     <div @click.shift="doSomething">Do_something</div>
+    <div @click.alt="doItSomething">Do_It_Something</div>
 </div>
 </template>
 <script>
@@ -23,6 +24,9 @@ export default{
         },
         doSomething : function(){
             alert('GoodNight');
+        },
+        doItSomething : function(){
+            alert("GoodAfterNoon");
         }
     }
 }
