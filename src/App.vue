@@ -24,7 +24,9 @@
     <!-- <router-link to="/eventkey">Event Key</router-link> | -->
     <!-- <router-link to="/computedclass">Computed-Class</router-link> |
     <router-link to="/watchclass">Watch-Class</router-link> | -->
-    <router-link to="/watchclass2">Watch-Class2</router-link> |
+    <!-- <router-link to="/watchclass2">Watch-Class2</router-link> | -->
+    <!-- <router-link to="/databindinglist2">Data-Binding-List2</router-link> | -->
+    <router-link to="/nestedcomponent">Nested-Component</router-link> |
     
   </nav>
   <router-view/>

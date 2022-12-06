@@ -27,6 +27,8 @@ import EventKey from '../views/EventKey.vue'
 import ComputedClass from '../views/ComputedClass.vue'
 import WatchClass from '../views/WatchClass.vue'
 import WatchClass2 from '../views/WatchClass2.vue'
+import DataBindingList2 from '../views/DataBindingList2.vue'
+import NestedComponent from '../views/NestedComponent.vue'
 const routes = [
 {
   path: '/',
@@ -158,6 +160,17 @@ const routes = [
   path : '/watchclass2',
   name : WatchClass2,
   component : WatchClass2
+}
+,
+{
+  path : '/databindinglist2',
+  name : DataBindingList2,
+  component : DataBindingList2
+},
+{
+  path : '/nestedcomponent',
+  name : NestedComponent,
+  component : NestedComponent
 }
 ]
 
