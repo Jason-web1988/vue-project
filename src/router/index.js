@@ -29,6 +29,9 @@ import WatchClass from '../views/WatchClass.vue'
 import WatchClass2 from '../views/WatchClass2.vue'
 import DataBindingList2 from '../views/DataBindingList2.vue'
 import NestedComponent from '../views/NestedComponent.vue'
+import ParentComponent from '../views/ParentComponent.vue'
+import ParentComponent2 from '../views/ParentComponent2.vue'
+import ParentComponent3 from '../views/ParentComponent3.vue'
 const routes = [
 {
   path: '/',
@@ -171,7 +174,23 @@ const routes = [
   path : '/nestedcomponent',
   name : NestedComponent,
   component : NestedComponent
+},
+{
+  path : '/parentcomponent',
+  name : ParentComponent,
+  component : ParentComponent
+},
+{
+  path : '/parentcomponent2',
+  name : ParentComponent2,
+  component : ParentComponent2
+},
+{
+  path : '/parentcomponent3',
+  name : ParentComponent3,
+  component : ParentComponent3
 }
+
 ]
 
 const router = createRouter({
