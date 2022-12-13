@@ -30,7 +30,15 @@
     <!-- <router-link to="/parentcomponent">Parent-Component</router-link> | -->
     <!-- <router-link to="/parentcomponent2">Parent-Component2</router-link> | -->
     <!-- <router-link to="/parentcomponent3">Parent-Component3</router-link> | -->
-    <router-link to="/parentcomponent4">Parent-Component4</router-link> |
+    <!-- <router-link to="/parentcomponent4">Parent-Component4</router-link> | -->
+    <!-- <router-link to="/parentcomponent5">Parent-Component5</router-link> | -->
+    <!-- <router-link to="/slotusemodallayout">SlotUseModalLayout</router-link> | -->
+    <!-- <router-link to="/provideinject">Provide Inject</router-link> | -->
+    <!-- <router-link to="/calculator">Calculator</router-link> | -->
+    <!-- <router-link to="/compositionAPI">CompositionAPI</router-link> | -->
+    <!-- <router-link to="/compositionAPI2">CompositionAPI2</router-link> | -->
+    <!-- <router-link to="/compositionAPI3">CompositionAPI3</router-link> | -->
+    <router-link to="/compositionAPI4">CompositionAPI4</router-link> |
   </nav>
   <router-view/>
 </template>

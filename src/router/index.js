@@ -33,6 +33,15 @@ import ParentComponent from '../views/ParentComponent.vue'
 import ParentComponent2 from '../views/ParentComponent2.vue'
 import ParentComponent3 from '../views/ParentComponent3.vue'
 import ParentComponent4 from '../views/ParentComponent4.vue'
+import ParentComponent5 from '../views/ParentComponent5.vue'
+import SlotUseModalLayout from '../views/SlotUseModalLayout.vue'
+import ProvideInject from '../views/ProvideInject.vue'
+import Calculator from '../views/Calculator.vue'
+import CompositionAPI from '../views/CompositionAPI.vue'
+import CompositionAPI2 from '../views/CompositionAPI2.vue'
+import CompositionAPI3 from '../views/CompositionAPI3.vue'
+import CompositionAPI4 from '../views/CompositionAPI4.vue'
+
 const routes = [
 {
   path: '/',
@@ -195,6 +204,46 @@ const routes = [
   path : '/parentcomponent4',
   name : ParentComponent4,
   component : ParentComponent4
+},
+{
+  path : '/parentcomponent5',
+  name : ParentComponent5,
+  component : ParentComponent5
+},
+{
+  path : '/slotusemodallayout',
+  name : SlotUseModalLayout,
+  component : SlotUseModalLayout
+},
+{
+  path : '/provideinject',
+  name : ProvideInject,
+  component : ProvideInject
+},
+{
+  path : '/calculator',
+  name : Calculator,
+  component : Calculator
+},
+{
+  path : '/compositionAPI',
+  name : CompositionAPI,
+  component : CompositionAPI
+},
+{
+  path : '/compositionAPI2',
+  name : CompositionAPI2,
+  component : CompositionAPI2
+},
+{
+  path : '/compositionAPI3',
+  name : CompositionAPI3,
+  component : CompositionAPI3
+},
+{
+  path : '/compositionAPI4',
+  name : CompositionAPI4,
+  component : CompositionAPI4
 }
 
 ]
