@@ -38,7 +38,9 @@
     <!-- <router-link to="/compositionAPI">CompositionAPI</router-link> | -->
     <!-- <router-link to="/compositionAPI2">CompositionAPI2</router-link> | -->
     <!-- <router-link to="/compositionAPI3">CompositionAPI3</router-link> | -->
-    <router-link to="/compositionAPI4">CompositionAPI4</router-link> |
+    <!-- <router-link to="/compositionAPI4">CompositionAPI4</router-link> | -->
+    <!-- <router-link to="/compositionAPIProvide">CompositionAPIProvide</router-link> | -->
+    <router-link to="/mixinsapi">MixinsAPI</router-link> |
   </nav>
   <router-view/>
 </template>

@@ -9,8 +9,7 @@ export default {
                 data
             }).catch(e =>{
                 console.log(e);
-            })
-            ).data;
+            })).data;
         }
     }
 }

@@ -41,6 +41,8 @@ import CompositionAPI from '../views/CompositionAPI.vue'
 import CompositionAPI2 from '../views/CompositionAPI2.vue'
 import CompositionAPI3 from '../views/CompositionAPI3.vue'
 import CompositionAPI4 from '../views/CompositionAPI4.vue'
+import CompositionAPIProvide from '../views/CompositionAPIProvide.vue'
+import MixinsAPI from '../views/MixinsAPI.vue'
 
 const routes = [
 {
@@ -244,7 +246,18 @@ const routes = [
   path : '/compositionAPI4',
   name : CompositionAPI4,
   component : CompositionAPI4
+},
+{
+  path : '/compositionAPIProvide',
+  name : CompositionAPIProvide,
+  component : CompositionAPIProvide
+},
+{
+  path : '/mixinsapi',
+  name : MixinsAPI,
+  component : MixinsAPI
 }
+
 
 ]
 
