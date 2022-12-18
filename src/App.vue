@@ -40,7 +40,8 @@
     <!-- <router-link to="/compositionAPI3">CompositionAPI3</router-link> | -->
     <!-- <router-link to="/compositionAPI4">CompositionAPI4</router-link> | -->
     <!-- <router-link to="/compositionAPIProvide">CompositionAPIProvide</router-link> | -->
-    <router-link to="/mixinsapi">MixinsAPI</router-link> |
+    <!-- <router-link to="/mixinsapi">MixinsAPI</router-link> | -->
+    <router-link to="/customdirective">CustomDirective</router-link> |
   </nav>
   <router-view/>
 </template>
