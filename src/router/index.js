@@ -44,6 +44,7 @@ import CompositionAPI4 from '../views/CompositionAPI4.vue'
 import CompositionAPIProvide from '../views/CompositionAPIProvide.vue'
 import MixinsAPI from '../views/MixinsAPI.vue'
 import CustomDirective from '../views/CustomDirective.vue'
+import PluginsTest from '../views/PluginsTest.vue' 
 
 const routes = [
 {
@@ -262,7 +263,13 @@ const routes = [
   path : '/customdirective',
   name : CustomDirective,
   component : CustomDirective
+},
+{
+  path : '/pluginstest',
+  name : PluginsTest,
+  component : PluginsTest
 }
+
 
 
 ]
