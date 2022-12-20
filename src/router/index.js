@@ -45,6 +45,7 @@ import CompositionAPIProvide from '../views/CompositionAPIProvide.vue'
 import MixinsAPI from '../views/MixinsAPI.vue'
 import CustomDirective from '../views/CustomDirective.vue'
 import PluginsTest from '../views/PluginsTest.vue' 
+import StoreAccess from '../views/StoreAccess.vue' 
 
 const routes = [
 {
@@ -268,7 +269,13 @@ const routes = [
   path : '/pluginstest',
   name : PluginsTest,
   component : PluginsTest
+},
+{
+  path : '/storeaccess',
+  name : StoreAccess,
+  component : StoreAccess
 }
+
 
 
 

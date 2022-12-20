@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 
 export default {
     methods :{
@@ -13,3 +13,6 @@ export default {
         }
     }
 }
+axios.defaults.baseURL = 'http://localhost:3000';       //서버주소
+axios.defaults.headers.post['Content-Type'] = 'application/json;charset=utf-8';
+axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'

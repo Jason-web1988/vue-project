@@ -42,7 +42,8 @@
     <!-- <router-link to="/compositionAPIProvide">CompositionAPIProvide</router-link> | -->
     <!-- <router-link to="/mixinsapi">MixinsAPI</router-link> | -->
     <!-- <router-link to="/customdirective">CustomDirective</router-link> | -->
-    <router-link to="/pluginstest">PluginsTest</router-link> |
+    <!-- <router-link to="/pluginstest">PluginsTest</router-link> | -->
+    <router-link to="/storeaccess">StoreAccess</router-link> |
   </nav>
   <router-view/>
 </template>
