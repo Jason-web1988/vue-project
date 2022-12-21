@@ -46,6 +46,9 @@ import MixinsAPI from '../views/MixinsAPI.vue'
 import CustomDirective from '../views/CustomDirective.vue'
 import PluginsTest from '../views/PluginsTest.vue' 
 import StoreAccess from '../views/StoreAccess.vue' 
+import KakaoLogin from '../views/KakaoLogin.vue' 
+import LoginTest from '../views/LoginTest.vue' 
+import NaverLogin from '../views/NaverLogin.vue' 
 
 const routes = [
 {
@@ -274,8 +277,26 @@ const routes = [
   path : '/storeaccess',
   name : StoreAccess,
   component : StoreAccess
+},
+{
+  path : '/kakaologin',
+  name : KakaoLogin,
+  // component : () => import (/*webpackChunkName : "KakaoLogin" */ '../views/KakaoLogin.vue')
+  component : KakaoLogin
+},
+{
+  path : '/login',
+  name : LoginTest,
+  // component : () => import (/*webpackChunkName : "KakaoLogin" */ '../views/KakaoLogin.vue')
+  component : LoginTest
 }
-
+,
+{
+  path : '/naverlogin',
+  name : NaverLogin,
+  //omponent : () => import (/*webpackChunkName : "parent" */ '../views/NaverLogin.vue')
+  component : NaverLogin
+}
 
 
 

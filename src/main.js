@@ -24,3 +24,4 @@ app.use(i18nPlugin, i18nStrings)        //i18n 플러그인에 다국어 번역 
 app.use(router)
 app.mixin(mixins);
 app.mount('#app')
+window.Kakao.init("e72ab2a54458a3c6fafc6ada8f1d3534");       //발급받은 앱 키
