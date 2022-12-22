@@ -49,6 +49,7 @@ import StoreAccess from '../views/StoreAccess.vue'
 import KakaoLogin from '../views/KakaoLogin.vue' 
 import LoginTest from '../views/LoginTest.vue' 
 import NaverLogin from '../views/NaverLogin.vue' 
+import GoogleLogin from '../views/GoogleLogin.vue' 
 
 const routes = [
 {
@@ -296,7 +297,14 @@ const routes = [
   name : NaverLogin,
   //omponent : () => import (/*webpackChunkName : "parent" */ '../views/NaverLogin.vue')
   component : NaverLogin
+},
+{
+  path : '/googlelogin',
+  name : GoogleLogin,
+  //omponent : () => import (/*webpackChunkName : "parent" */ '../views/GoogleLogin.vue')
+  component : GoogleLogin
 }
+
 
 
 
